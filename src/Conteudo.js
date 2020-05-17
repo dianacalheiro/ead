@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { BsPersonSquare, BsFolder } from "react-icons/bs";
 
 function Conteudo() {
     return (
@@ -13,7 +14,7 @@ function Conteudo() {
             <Card.Body>
                 Turma A
             </Card.Body>
-            <Card.Footer>footer </Card.Footer>
+            <Card.Footer><BsPersonSquare/> <BsFolder/> </Card.Footer>
         </Card>
         </Col>
         <Col xs={4} md={4} lg={4} style={{float: 'none', display: 'inline-block'}}>
@@ -26,7 +27,7 @@ function Conteudo() {
             08:00 - "ALEGRAR!"
             </Card.Text>
         </Card.Body>
-        <Card.Footer>footer </Card.Footer>
+        <Card.Footer><BsPersonSquare/> <BsFolder/> </Card.Footer>
          </Card>
          </Col>
          </Col>
