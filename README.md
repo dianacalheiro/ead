@@ -1,3 +1,11 @@
+# EAD offline
+ Plataforma para EAD sem conexão à internet.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
