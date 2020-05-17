@@ -10,7 +10,7 @@ function Login(props) {
     );
     return (
         <Col style={{textAlign: 'center'}}>
-        <Col xs={4} md={4} lg={4} style={{float: 'none', display: 'inline-block'}}>
+        <Col xs={12} md={6} lg={4} style={{float: 'none', display: 'inline-block'}}>
             <Form>  
                 <Form.Group controlId="formBasicEmail">
                 <Form.Label>Usuário</Form.Label>

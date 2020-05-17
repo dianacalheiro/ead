@@ -8,7 +8,7 @@ import { BsPersonSquare, BsFolder } from "react-icons/bs";
 function Conteudo() {
     return (
         <Col xs={12} md={12} lg={12} style={{float: 'none', display: 'inline-block'}}> 
-        <Col xs={4} md={4} lg={4} style={{float: 'none', display: 'inline-block'}}>  
+        <Col xs={12} md={6} lg={4} style={{float: 'none', display: 'inline-block'}}>  
         <Card>
             <Card.Header style={{backgroundColor:'orange'}}>Turma de Exemplo </Card.Header>
             <Card.Body>
@@ -17,7 +17,7 @@ function Conteudo() {
             <Card.Footer><BsPersonSquare/> <BsFolder/> </Card.Footer>
         </Card>
         </Col>
-        <Col xs={4} md={4} lg={4} style={{float: 'none', display: 'inline-block'}}>
+        <Col xs={12} md={6} lg={4} style={{float: 'none', display: 'inline-block'}}>
         <Card>
         <Card.Header style={{backgroundColor:'blue'}}>3º Ano M </Card.Header>
         <Card.Body>
