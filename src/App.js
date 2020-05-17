@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/NavBar';
+import Navbar from 'react-bootstrap/Navbar';
 import Badge from 'react-bootstrap/Badge';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
